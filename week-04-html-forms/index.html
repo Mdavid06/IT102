@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Food Order Form</title>
+</head>
+
+<body>
+
+    <!-- Main heading -->
+    <h1>Customer Food Order Form</h1>
+
+    <!-- Form instructions -->
+    <p>Please fill out the form below to place your food order.</p>
+
+    <!-- Customer order form -->
+    <form action="#" method="post">
+
+        <!-- Customer first name -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"
+               placeholder="First Name"
+               minlength="2" maxlength="30" required>
+
+        <br><br>
+
+        <!-- Customer last name -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"
+               placeholder="Last Name"
+               minlength="2" maxlength="30" required>
+
+        <br><br>
+
+        <!-- Food selection -->
+        <label for="foodChoice">Which food would you like to eat?</label>
+        <select id="foodChoice" name="foodChoice" required>
+            <option value="">Select your food</option>
+            <option value="chicken">Chicken</option>
+            <option value="beef">Beef</option>
+            <option value="fish">Fish</option>
+        </select>
+
+        <br><br>
+
+        <!-- Allergy information -->
+        <label for="allergies">Do you have any allergies?</label>
+        <br>
+        <textarea id="allergies" name="allergies"
+                  rows="5" cols="35"
+                  placeholder="List any allergies here (optional)"></textarea>
+
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Send Order</button>
+
+    </form>
+
+    <!-- Helpful food information link -->
+    <p>
+        Learn more about healthy eating:
+        <a href="https://www.myplate.gov/" target="_blank"
+           rel="noopener noreferrer">Visit MyPlate</a>
+    </p>
+
+</body>
+</html>
