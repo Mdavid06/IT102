@@ -1,0 +1,26 @@
+
+/* Make the first heading green */
+h1 {
+    color: green;
+}
+
+/* Make the second heading purple */
+h2 {
+    color: purple;
+}
+
+/* Style paragraph backgrounds and text */
+p {
+    background-color: lightyellow;
+    color: darkblue;
+    padding: 12px;
+}
+
+/* Style the button blue with white text */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
